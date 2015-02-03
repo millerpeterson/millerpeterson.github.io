@@ -1,0 +1,10 @@
+# Site settings
+title: Peterson Heavy Industries
+description: >
+  Complicity with coded materials, cthonic murmurs, and blinking LEDs.
+baseurl: "/"
+url: "http://millerpeterson.github.io"
+github_username:  millerpeterson
+
+# Build settings
+markdown: kramdown
