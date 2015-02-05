@@ -1,8 +1,8 @@
 # Site settings
 title: Peterson Heavy Industries
 description: >
-  Complicity with coded materials, cthonic murmurs, and blinking LEDs.
-baseurl: "/"
+  Complicity with coded materials.
+baseurl: ""
 url: "http://millerpeterson.github.io"
 github_username:  millerpeterson
 
