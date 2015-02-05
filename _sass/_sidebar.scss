@@ -1,6 +1,15 @@
 .sidebar {
-  padding: 10px;
+
+  padding: 20px;
   color: #D8E3E7;
   background-color: #243143;
   height: 100vh;
+
+  .heading {
+    font-size: 4vw;
+  }
+
+  .sub-heading {
+    font-size: 3vw;
+  }
 }
