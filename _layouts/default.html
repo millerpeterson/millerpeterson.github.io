@@ -7,7 +7,16 @@
 
     {% include header.html %}
 
-    {{ content }}
+    <div class="pure-g">
+      <div class="pure-u-1-4">
+        {% include sidebar.html %}
+      </div>
+      <div class="pure-u-3-4">
+        <div class="main-content">
+          {{ content }}
+        </div>
+      </div>
+    </div>
 
     {% include footer.html %}
 
