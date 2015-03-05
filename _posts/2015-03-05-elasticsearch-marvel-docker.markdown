@@ -4,7 +4,7 @@ title:  Running ElasticSearch + Marvel in Docker.
 date:   2015-03-05 23:55:22
 ---
 
-Lately I'm fascinated with [ElasticSearch] (http://www.elasticsearch.org/), and I'd like to start indexing / analyzing the content I've built up in my gratefulness journal ([thx-journal.net](http://thx-journal.net)) in the many years I've been using it. I decided this would be a good excuse to get familiar with [Docker](http://docker.com) at the same time.
+Lately I'm fascinated with [ElasticSearch](http://www.elasticsearch.org/), and I'd like to start indexing / analyzing the content I've built up in my gratefulness journal ([thx-journal.net](http://thx-journal.net)) in the many years I've been using it. I decided this would be a good excuse to get familiar with [Docker](http://docker.com) at the same time.
 
 After familiarizing myself with the basics of Docker, I found a project called [dockerfile/elasticsearch](https://github.com/dockerfile/elasticsearch), a nice image that runs ElasticSearch with an EC2 discovery plugin enabled.
 
