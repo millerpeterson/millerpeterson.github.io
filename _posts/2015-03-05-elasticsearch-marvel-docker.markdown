@@ -8,7 +8,7 @@ Lately I'm fascinated with [ElasticSearch](http://www.elasticsearch.org/), and I
 
 After familiarizing myself with the basics of Docker, I found a project called [dockerfile/elasticsearch](https://github.com/dockerfile/elasticsearch), a nice image that runs ElasticSearch with an EC2 discovery plugin enabled.
 
-There was one thing small thing missing that I love to have in ElasticSearch: the [Marvel plugin]. This provides pretty-looking analytics for your cluster, as well
+There was one thing small thing missing that I love to have in ElasticSearch: the [Marvel plugin](http://www.elasticsearch.com/products/marvel). This provides pretty-looking analytics for your cluster, as well
  an excellent json developer console (formerly known as [Sense](https://github.com/bleskes/sense)). Getting this included in the image was a one liner in the
  :
 
