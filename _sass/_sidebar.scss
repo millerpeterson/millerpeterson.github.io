@@ -1,15 +1,19 @@
 .sidebar {
 
   padding: 20px;
-  color: #D8E3E7;
-  background-color: #243143;
-  height: 50vh;
+  height: 100%;
+  color: #73869E;
 
   .heading {
     font-size: 4vw;
   }
 
   .sub-heading {
-    font-size: 3vw;
+    font-size: 2vw;
+  }
+
+  .message {
+    font-size: 2vw;
+    margin-bottom: 25%;
   }
 }
