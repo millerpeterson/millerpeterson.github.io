@@ -1,9 +1,20 @@
+body {
+  a {
+    color: #6b7e98;
+  }
+  color: #777;
+}
+
 .main-content {
   padding-left: 30px;
   padding-top: 20px;
   height: 100vh;
   font-size: 3vmin;
-  h1 {
-    font-size: 6vmin;
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+
+  h3 {
+    color: rgb(119, 119, 119);
   }
 }
+
