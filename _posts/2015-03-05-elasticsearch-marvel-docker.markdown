@@ -16,4 +16,4 @@ There was one thing small thing missing that I love to have in ElasticSearch: th
  RUN cd elasticsearch && bin/plugin -install elasticsearch/elasticsearch-cloud-aws/2.4.1 && bin/plugin -install elasticsearch/marvel/latest
  ```
 
-Ran the new image, and everything just worked (once I figured out how to get my boot2docker VM ip)! I'm beginning to get the hype surrounding Docker and other lightweight container platforms. Next step is to try this new image on EC2. All my words of thanks will soon go to the the big paper shredder up in the cloud: ElasticSearch.
+Ran the new image, and everything just worked (once I figured out how to get my boot2docker VM ip)! I'm beginning to get the hype surrounding Docker and other lightweight container platforms.
