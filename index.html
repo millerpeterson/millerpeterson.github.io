@@ -4,9 +4,9 @@ layout: default
 
 {% for post in site.posts %}
 
-<div>
+<div class="post">
   <h3>{{ post.title }}</h3>
-  <div>{{ post.date | date: "%B %d" }}</div>
+  <div class="date">{{ post.date | date: "%B %d, %Y" }}</div>
   <div>{{ post.content }}</div>
 </div>
 
