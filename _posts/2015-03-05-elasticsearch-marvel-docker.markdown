@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Running ElasticSearch + Marvel in Docker.
+title:  Running ElasticSearch + Marvel in Docker
 date:   2015-03-05 23:55:22
 ---
 
@@ -16,4 +16,4 @@ There was one thing small thing missing that I love to have in ElasticSearch: th
  RUN cd elasticsearch && bin/plugin -install elasticsearch/elasticsearch-cloud-aws/2.4.1 && bin/plugin -install elasticsearch/marvel/latest
  ```
 
-Ran the new image, and everything just worked (once I figured out how to get my boot2docker VM ip)! I'm beginning to get the hype surrounding Docker and other lightweight container platforms.
+Ran the new image, and everything just worked (once I figured out how to get my boot2docker VM ip)! Here's the image on DockerHub: [millerpeterson/elasticsearch-marvel-ec2](https://registry.hub.docker.com/u/millerpeterson/elasticsearch-marvel-ec2/).
