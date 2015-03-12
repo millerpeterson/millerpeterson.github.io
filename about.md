@@ -1,11 +1,19 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: About Peterson Heavy Industries
+permalink: /about.html
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hi, I'm Miller Peterson ([Github](http://www.github.com/millerpeterson) / [LinkedIn](http://ca.linkedin.com/pub/miller-peterson/28/51b/759/en) / [SoundCloud](http://soundcloud.com/millerpeterson) ).
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+I'm a software engineer living in Toronto, Canada (where Drake comes from).
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Lately I'm excited about:
+
+- [ElasticSearch](https://www.elastic.co/)
+- [Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/)
+- [Microservices](http://nginx.com/blog/building-microservices-free-ebook-oreilly-nginx/)
+- [Cyclonopedia by Reza Negarestani](http://www.amazon.ca/Cyclonopedia-Complicity-Anonymous-Reza-Negarestani/dp/0980544009)
+- [Future Brown](https://soundcloud.com/future-brown)
+
+Please sign my guestbook.
