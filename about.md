@@ -10,10 +10,10 @@ I'm a software engineer living in Toronto, Canada (where Drake comes from).
 
 Lately I'm excited about:
 
-- [ElasticSearch](https://www.elastic.co/)
+- [Go](https://golang.org/)
 - [Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/)
-- [Microservices](http://nginx.com/blog/building-microservices-free-ebook-oreilly-nginx/)
-- [Cyclonopedia by Reza Negarestani](http://www.amazon.ca/Cyclonopedia-Complicity-Anonymous-Reza-Negarestani/dp/0980544009)
-- [Future Brown](https://soundcloud.com/future-brown)
+- [Docker](https://hub.docker.com/u/millerpeterson/)
+- [The Three Body Problem by Cixin Liu](http://www.amazon.ca/The-Three-Body-Problem-Cixin-Liu/dp/0765377063)
+- [Captain of None by Colleen](https://vimeo.com/123892544)
 
 Please sign my guestbook.
