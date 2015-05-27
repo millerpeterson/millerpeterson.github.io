@@ -13,7 +13,7 @@ Lately I'm excited about:
 - [Go](https://golang.org/)
 - [Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/)
 - [Docker](https://hub.docker.com/u/millerpeterson/)
-- [The Three Body Problem by Cixin Liu](http://www.amazon.ca/The-Three-Body-Problem-Cixin-Liu/dp/0765377063)
-- [Captain of None by Colleen](https://vimeo.com/123892544)
+- [The Concurrency Revolution](http://www.drdobbs.com/the-concurrency-revolution/184401916)
+- [Weightless](https://soundcloud.com/differentcircles/va-weightless-vol-1-preview)
 
 Please sign my guestbook.
