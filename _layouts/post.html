@@ -12,6 +12,11 @@ layout: default
         {{ content }}
     </article>
 
-    <a href="/">Back to Blog</a>
+    <a class="back-arrow" href="/">← Back to Blog</a>
+
+    <section class="comments">
+        <h3>Comments</h3>
+        {% include disqus.html %}
+    </section>
 
 </div>
