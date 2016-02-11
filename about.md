@@ -8,12 +8,14 @@ Hi, I'm Miller Peterson ([Github](http://www.github.com/millerpeterson) / [Linke
 
 I'm a software engineer living in Toronto, Canada (where Drake comes from).
 
+I work for <a href="http://www.autodesk.com" target="_blank">Autodesk</a>.
+
 Lately I'm excited about:
 
-- [Go](https://golang.org/)
-- [Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/)
-- [Docker](https://hub.docker.com/u/millerpeterson/)
-- [The Concurrency Revolution](http://www.drdobbs.com/the-concurrency-revolution/184401916)
-- [Weightless](https://soundcloud.com/differentcircles/va-weightless-vol-1-preview)
+- [ClojureScript](https://github.com/clojure/clojurescript)
+- [The Emergence of Synthetic Reason](http://www.bloomsbury.com/uk/philosophy-and-simulation-9781441170286/)
+- [Genetic Programming](https://www.youtube.com/watch?v=HWMJdO4klIE)
+- [Darkest Dungeon](http://www.darkestdungeon.com/)
+- [Calimex Mental Implant Corp](https://legowelt.bandcamp.com/album/el-saber-del-arpavor)
 
 Please sign my guestbook.
