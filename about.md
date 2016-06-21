@@ -8,14 +8,14 @@ Hi, I'm Miller Peterson ([Github](http://www.github.com/millerpeterson) / [Linke
 
 I'm a software engineer living in Toronto, Canada (where Drake comes from).
 
-I work for <a href="http://www.autodesk.com" target="_blank">Autodesk</a>.
+I work for <a href="http://www.autodesk.com" target="_blank">Autodesk</a> on [3D printing](http://www.thingmaker.com).
 
 Lately I'm excited about:
 
-- [ClojureScript](https://github.com/clojure/clojurescript)
-- [The Emergence of Synthetic Reason](http://www.bloomsbury.com/uk/philosophy-and-simulation-9781441170286/)
-- [Genetic Programming](https://www.youtube.com/watch?v=HWMJdO4klIE)
-- [Darkest Dungeon](http://www.darkestdungeon.com/)
-- [Calimex Mental Implant Corp](https://legowelt.bandcamp.com/album/el-saber-del-arpavor)
+- [NodeJS](https://nodejs.org/en/)
+- [Seveneves by Neil Stephenson](https://en.wikipedia.org/wiki/Seveneves)
+- [The Fourier Transform](https://en.wikipedia.org/wiki/Fourier_transform)
+- [Autodesk Bio/Nano Research](https://www.autodeskresearch.com/groups/bionano)
+- [NASA's Juno Probe](https://www.nasa.gov/mission_pages/juno/main/index.html)
 
 Please sign my guestbook.
