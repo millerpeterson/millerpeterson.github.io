@@ -1,7 +1,0 @@
-// Compiled by ClojureScript 1.7.170 {}
-goog.provide('genetic_byte_beats.forms');
-goog.require('cljs.core');
-goog.require('instaparse.core');
-genetic_byte_beats.forms.form_parser = instaparse.core.parser.call(null,"expr          = bitwise-or\n     <bitwise-or>  = bitwise-xor | bit-or\n     bit-or        = bitwise-or <'|'> bitwise-xor\n     <bitwise-xor> = bitwise-and | bit-xor\n     bit-xor       = bitwise-xor <'^'> bitwise-and\n     <bitwise-and> = bit-shift | bit-and\n     bit-and       = bitwise-and <'&'> bit-shift\n     <bit-shift>   = add-sub | shift-left | shift-right\n     shift-left    = bit-shift <'<<'> add-sub\n     shift-right   = bit-shift <'>>'> add-sub\n     <add-sub>     = mult-div | add | sub\n     add           = add-sub <'+'> mult-div\n     sub           = add-sub <'-'> mult-div\n     <mult-div>    = term | mult | div | mod\n     mult          = mult-div <'*'> term\n     div           = mult-div <'/'> term\n     mod           = mult-div <'%'> term\n     <term>        = number | variable | <'('> bitwise-or <')'>\n     variable      = 't'\n     <number>      = floating | integer\n     floating      = #'-{0,1}\\d+\\.\\d+'\n     integer       = #'-{0,1}\\d+'");
-
-//# sourceMappingURL=forms.js.map?rel=1455050747351

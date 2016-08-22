@@ -1,2 +1,0 @@
-;; Analyzed by ClojureScript 1.7.170
-{:name genetic-byte-beats.forms, :doc nil, :excludes #{}, :use-macros nil, :require-macros nil, :uses nil, :requires {insta instaparse.core, instaparse.core instaparse.core}, :imports nil, :defs {form-parser {:name genetic-byte-beats.forms/form-parser, :file "src/genetic_byte_beats/forms.cljs", :line 4, :column 1, :end-line 4, :end-column 17, :meta {:file "/Users/miller/dev/genetic-byte-beats/src/genetic_byte_beats/forms.cljs", :line 4, :column 6, :end-line 4, :end-column 17}}}}
