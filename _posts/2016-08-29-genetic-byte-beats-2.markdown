@@ -19,7 +19,7 @@ your ScriptProcessorNode will execute a callback which is passed an audio buffer
 fills up the buffer with sample values. Here is what my ClojureScript implementation looked like;
 this function returns the callback that will receive ScriptProcessorNode events:
 
-```clojure
+```Clojure
 (defn audio-event-processor
   [clock-ref sample-gen rate-ratio]
   "A function that fills the audio buffer in an autioprocess event with samples from using
@@ -45,7 +45,7 @@ formulas](https://github.com/erlehmann/algorithmic-symphonies).
 At first I tried manually re-writing some of the famous ones in ClojureScript. Here's
 the ClojureScript version of the famous `t * ((t>>12 | t>>8) & 63 & t>>4)`:
 
-```clojure
+```Clojure
 (def yv1f1
   '(* t (bit-and (bit-or (bit-shift-right t 12)
                          (bit-shift-right t 8))
