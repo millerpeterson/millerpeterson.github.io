@@ -1,9 +1,10 @@
 .highlight pre {
-  overflow-x: auto;       // this sets the scrolling in x
+  word-wrap: normal;
+  overflow-x: scroll;
 }
 
 .highlight pre code {
-  white-space: pre;       // forces <code> to respect <pre> formatting
+  white-space: pre;
 }
 
 code .hll { background-color: #ffffcc }
