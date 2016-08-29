@@ -19,7 +19,7 @@ your ScriptProcessorNode will execute a callback which is passed an audio buffer
 fills up the buffer with sample values. Here is what my ClojureScript implementation looked like;
 this function returns the callback that will receive ScriptProcessorNode events:
 
-{% highlight clojure %}
+```clojure
 (defn audio-event-processor
   [clock-ref sample-gen rate-ratio]
   "A function that fills the audio buffer in an autioprocess event with samples from using
@@ -32,7 +32,7 @@ this function returns the callback that will receive ScriptProcessorNode events:
                                 (sample-gen rate-adjusted-t)))]
       (fill-buffer! out-buff (comp folded-amp buffer-sample-gen))
       (swap! clock-ref #(+ % (.-length out-buff))))))
-{% endhighlight %}
+```
 
 `sample-gen` is a function that would take one argument, essentially the "t" in byte beat formulas.
 There's a bit of math using `rate-ratio` - basically this allows you to stretch or compress a 
