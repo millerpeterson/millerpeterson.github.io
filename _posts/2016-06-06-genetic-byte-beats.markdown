@@ -61,5 +61,5 @@ For the past few months, I've been working on a browser-based program for explor
 sonic possibilities of byte beats in a fun and intuitive way. The idea is to use genetic
 programming to generate novel and interesting byte beat formulas. I'm coding the project
 using [ClojureScript](https://github.com/clojure/clojurescript) and rendering the audio in-browser using the
-[WebAudio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API).
+[Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API).
 I'll be documenting my work on this project in a series of upcoming posts.
