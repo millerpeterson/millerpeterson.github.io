@@ -1,3 +1,11 @@
+.highlight pre {
+  overflow-x: auto;       // this sets the scrolling in x
+}
+
+.highlight pre code {
+  white-space: pre;       // forces <code> to respect <pre> formatting
+}
+
 code .hll { background-color: #ffffcc }
 code .c { color: #999988; font-style: italic } /* Comment */
 code .err { color: #a61717; background-color: #e3d2d2 } /* Error */
