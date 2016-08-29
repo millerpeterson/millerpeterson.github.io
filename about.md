@@ -8,14 +8,12 @@ Hi, I'm Miller Peterson ([Github](http://www.github.com/millerpeterson) / [Linke
 
 I'm a software engineer living in Toronto, Canada (where Drake comes from).
 
-I work for <a href="http://www.autodesk.com" target="_blank">Autodesk</a> on [3D printing](http://www.thingmaker.com).
-
 Lately I'm excited about:
 
-- [NodeJS](https://nodejs.org/en/)
-- [Seveneves by Neil Stephenson](https://en.wikipedia.org/wiki/Seveneves)
-- [The Fourier Transform](https://en.wikipedia.org/wiki/Fourier_transform)
-- [Autodesk Bio/Nano Research](https://www.autodeskresearch.com/groups/bionano)
+- [DJ Earl](https://soundcloud.com/djearlteckz)
+- [Blindsight by Peter Watts](http://www.goodreads.com/book/show/48484.Blindsight)
+- [Doom](https://www.youtube.com/watch?v=3SAFSz8yxrE)
+- [Celestial Navigation for Yachtsmen](http://pictures.abebooks.com/isbn/9780828600286-us-300.jpg)
 - [NASA's Juno Probe](https://www.nasa.gov/mission_pages/juno/main/index.html)
 
 Please sign my guestbook.
