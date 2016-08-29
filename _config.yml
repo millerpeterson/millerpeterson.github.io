@@ -8,9 +8,4 @@ github_username:  millerpeterson
 
 # Build settings
 markdown: kramdown
-
-markdown: kramdown
-
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+highlighter: rouge

@@ -19,7 +19,7 @@ your ScriptProcessorNode will execute a callback which is passed an audio buffer
 fills up the buffer with sample values. Here is what my ClojureScript implementation looked like;
 this function returns the callback that will receive ScriptProcessorNode events:
 
-```clojure
+{% highlight clojure %}
 (defn audio-event-processor
   [clock-ref sample-gen rate-ratio]
   "A function that fills the audio buffer in an autioprocess event with samples from using
@@ -32,7 +32,7 @@ this function returns the callback that will receive ScriptProcessorNode events:
                                 (sample-gen rate-adjusted-t)))]
       (fill-buffer! out-buff (comp folded-amp buffer-sample-gen))
       (swap! clock-ref #(+ % (.-length out-buff))))))
-```
+{% endhighlight %}
 
 `sample-gen` is a function that would take one argument, essentially the "t" in byte beat formulas.
 There's a bit of math using `rate-ratio` - basically this allows you to stretch or compress a 
@@ -45,13 +45,13 @@ formulas](https://github.com/erlehmann/algorithmic-symphonies).
 At first I tried manually re-writing some of the famous ones in ClojureScript. Here's
 the ClojureScript version of the famous `t * ((t>>12 | t>>8) & 63 & t>>4)`:
 
-```Clojure
+{% highlight clojure %}
 (def yv1f1
   '(* t (bit-and (bit-or (bit-shift-right t 12)
                          (bit-shift-right t 8))
                  63
                  (bit-shift-right t 4))))
-```
+{% endhighlight %}
 
 Manually coding these rapidly grew tedious, so I decided I needed a way to parse the C expressions
 and convert them into ClojureScript expressions. A bit of searching lead me to 
@@ -61,7 +61,7 @@ Arithmetic is a classic instructional example for CFGs, so I was able to
 get oriented quickly. Through some trial and error I figured out how to get the operator precedence 
 right for the byte beat grammar. Here is what I came up with:
 
-```
+{% highlight text %}
 expr          = bitwise-or
 <bitwise-or>  = bitwise-xor | bit-or
 bit-or        = bitwise-or <'|'> bitwise-xor
@@ -88,7 +88,7 @@ variable      = 't'
 floating      = #'-{0,1}\d+\.\d+'
 integer       = #'-{0,1}\d+'
 hex           = #'-{0,1}0x(\d|[a-f]|[A-F])+'
-```
+{% endhighlight %}
 
 Now I was able to parse and play all the cool byte beat formulas people have come
 up with. It's pretty fantastic that ClojureScript and Instaparse let you do all this

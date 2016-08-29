@@ -7,11 +7,11 @@ date:   2016-06-03 22:33:00
 Consider for a moment the following small fragment of C code,
 which outputs a sequence of bytes based on an ever-incrementing counter (`t`):
 
-```
+{% highlight c %}
 for (t=0;;t++) {
     putchar(t * ((t>>12 | t>>8) & 63 & t>>4));
 }
-```
+{% endhighlight %}
 
 Now imagine this is generating samples to be passed to a DAC to create sound
 (e.g. pipe the output of this program to `/dev/dsp` on a Unix system). What
