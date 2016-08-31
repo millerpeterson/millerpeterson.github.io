@@ -12,7 +12,7 @@ basically a text editor and a C compiler. You should be able to have fun with by
 having to understand what is actually going on in byte beat formulas.
 
 To start, I needed to figure out how to play a byte beat formula in the browser. From past tinkering
-withthe Web Audio API, I knew that there was an audio graph element called a 
+with the Web Audio API, I knew that there was an audio graph element called a 
 [ScriptProcessorNode](https://developer.mozilla.org/en/docs/Web/API/ScriptProcessorNode),
 which could be used to create samples by evaluating an arbitrary function. The way this works is that
 your ScriptProcessorNode will execute a callback which is passed an audio buffer, and the callback
@@ -22,7 +22,7 @@ this function returns the callback that will receive ScriptProcessorNode events:
 {% highlight clojure %}
 (defn audio-event-processor
   [clock-ref sample-gen rate-ratio]
-  "A function that fills the audio buffer in an autioprocess event with samples from using
+  "A function that fills the audio buffer in an audioprocess event with samples from using
    sample-gen ranging over a clock's values, rate adjusted according to a sample rate ratio."
   (fn [ap-event]
     (let [out-buff (.-outputBuffer ap-event)
@@ -35,12 +35,11 @@ this function returns the callback that will receive ScriptProcessorNode events:
 {% endhighlight %}
 
 `sample-gen` is a function that would take one argument, essentially the "t" in byte beat formulas.
-There's a bit of math using `rate-ratio` - basically this allows you to stretch or compress a 
+There's a bit of math using `rate-ratio` - this allows you to stretch or compress a 
 formula by manipulating its sample rate. This function mutates a global clock reference to increment
-the byte beat "t" value, but if I had to do it again I would try to do this with a closure. This
-approach 
+the byte beat "t" value; if I had to do it again I would try to do this with a closure.
  
-Having a way to play the byte beats, I wanted to try out some of the awesome [existing byte beat 
+Now that I had a way to play the byte beats, I wanted to try out some of the awesome [existing byte beat 
 formulas](https://github.com/erlehmann/algorithmic-symphonies). 
 At first I tried manually re-writing some of the famous ones in ClojureScript. Here's
 the ClojureScript version of the famous `t * ((t>>12 | t>>8) & 63 & t>>4)`:
@@ -56,7 +55,7 @@ the ClojureScript version of the famous `t * ((t>>12 | t>>8) & 63 & t>>4)`:
 Manually coding these rapidly grew tedious, so I decided I needed a way to parse the C expressions
 and convert them into ClojureScript expressions. A bit of searching lead me to 
 [Instaparse](https://github.com/Engelberg/instaparse), an awesome library for generating parsers
-for language grammars. And it works in the browser through the [instaparse-cljs](https://github.com/lbradstreet/instaparse-cljs) port!
+for language grammars. It works in the browser through the [instaparse-cljs](https://github.com/lbradstreet/instaparse-cljs) port.
 Arithmetic is a classic instructional example for CFGs, so I was able to 
 get oriented quickly. Through some trial and error I figured out how to get the operator precedence 
 right for the byte beat grammar. Here is what I came up with:
