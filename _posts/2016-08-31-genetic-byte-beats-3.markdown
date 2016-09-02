@@ -42,7 +42,7 @@ crossover:
 {% endhighlight %}
 
 `op-tree-locs` just filters the list of tree nodes to those that represent operators
-in the byte beat formulas.
+in the byte beat formulas (and thus valid sites for swapping branches).
 
 I also implemented operations that are akin to genetic mutation:
 
